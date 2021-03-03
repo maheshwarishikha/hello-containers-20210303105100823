@@ -25,6 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
+  console.log("Test Repo");
   res.send(message.getWelcomeMessage());
 });
 
