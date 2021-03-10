@@ -25,7 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  console.log("Test Repo - New toolchain-PR1");
+  console.log("Test Repo - New toolchain-PR2");
   res.send(message.getWelcomeMessage());
 });
 
